@@ -1,0 +1,7 @@
+syntax="proto2";
+package common;
+
+message header{
+    required string identity = 1;
+    required int32 length = 2;
+}

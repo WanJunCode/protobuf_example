@@ -1,0 +1,9 @@
+syntax="proto2";
+package wanjun;
+
+import "common.header.proto";
+
+message WjPackage{
+    required common.header head = 1;
+    required string privateData = 2; 
+}
